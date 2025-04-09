@@ -11,7 +11,12 @@ const App = () => {
         title="Home Screen"
         IconClose={
           <View>
-            <Text>Close</Text>
+            <Text>Icon Close</Text>
+          </View>
+        }
+        IconSearch={
+          <View>
+            <Text>Icon Search</Text>
           </View>
         }
         onChangeText={(text: string) => {
@@ -19,7 +24,7 @@ const App = () => {
         }}
         leftIcon={
           <View>
-            <Text>left Icon</Text>
+            <Text>Icon Left </Text>
           </View>
         }
         onpressLeft={() => {

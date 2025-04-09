@@ -19,6 +19,7 @@ import styles from './style';
 export interface HeaderProps {
   leftIcon?: any;
   IconClose?: any;
+  IconSearch?: any;
   styleInput?: ViewStyle;
   styleHeader?: Animated.AnimatedProps<ViewStyle>;
   inputStyle?: TextStyle;
@@ -36,6 +37,7 @@ const openSearch = new Animated.Value(0);
 const HeaderSearch: FC<HeaderProps> = ({
   leftIcon,
   IconClose,
+  IconSearch,
   styleHeader,
   onpressLeft,
   onLayout,
@@ -119,7 +121,16 @@ const HeaderSearch: FC<HeaderProps> = ({
               style={{ alignItems: 'center' }}
               onPress={handleOpenSearch}
             >
-              <Text>Icon Search</Text>
+              {IconSearch ? (
+                <TouchableOpacity
+                  style={{ alignItems: 'center' }}
+                  onPress={handleOpenSearch}
+                >
+                  {IconSearch}
+                </TouchableOpacity>
+              ) : (
+                <Text>Search</Text>
+              )}
             </TouchableOpacity>
           )}
 
