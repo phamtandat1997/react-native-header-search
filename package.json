@@ -1,7 +1,7 @@
 {
   "name": "react-native-header-search",
-  "version": "0.1.0",
-  "description": "UI component react native",
+  "version": "0.0.1",
+  "description": "A customizable and responsive header search bar UI component for React Native apps, featuring advanced styling, easy integration, and dynamic event handling.",
   "source": "./src/index.tsx",
   "main": "./lib/module/index.js",
   "exports": {
@@ -42,7 +42,15 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "tabbar",
+    "search",
+    "header",
+    "search-bar",
+    "header-search-bar",
+    "header-search",
+    "header-search",
+    "header-search-bar-component"
   ],
   "repository": {
     "type": "git",

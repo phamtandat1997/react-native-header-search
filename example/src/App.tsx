@@ -1,25 +1,33 @@
-import { multiply } from 'react-native-header-search';
-import { Text, View, StyleSheet } from 'react-native';
-import { useState, useEffect } from 'react';
+import { View, Text } from 'react-native';
+import { HeaderSearch } from 'react-native-header-search';
 
-export default function App() {
-  const [result, setResult] = useState<number | undefined>();
-
-  useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
+    <View>
+      <HeaderSearch
+        placeholderTextColor="#999"
+        placeHolder="Search..."
+        styleHeader={{ backgroundColor: '#6c0af5' }}
+        title="Home Screen"
+        IconClose={
+          <View>
+            <Text>Close</Text>
+          </View>
+        }
+        onChangeText={(text: string) => {
+          console.log(text);
+        }}
+        leftIcon={
+          <View>
+            <Text>left Icon</Text>
+          </View>
+        }
+        onpressLeft={() => {
+          console.log('left icon pressed');
+        }}
+      />
     </View>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
