@@ -1,9 +1,9 @@
-import { View, Text } from 'react-native';
+import { View, Text, SafeAreaView } from 'react-native';
 import { HeaderSearch } from 'react-native-header-search';
 
 const App = () => {
   return (
-    <View>
+    <SafeAreaView>
       <HeaderSearch
         placeholderTextColor="#999"
         placeHolder="Search..."
@@ -26,7 +26,7 @@ const App = () => {
           console.log('left icon pressed');
         }}
       />
-    </View>
+    </SafeAreaView>
   );
 };
 
