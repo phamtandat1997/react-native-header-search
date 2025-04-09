@@ -7,7 +7,8 @@ A customizable and responsive header search bar UI component for React Native ap
 
 [video.webm](https://github.com/user-attachments/assets/8d77aa0c-671e-40bd-a82e-8203f753c567)  
 
-## Suport IOS , ANDROID
+## Suport Ios , Android
+
 
 ## Installation
 
