@@ -5,9 +5,7 @@
 A customizable and responsive header search bar UI component for React Native apps, featuring advanced styling, easy integration, and dynamic event handling.
 
 
-[video.webm](https://github.com/user-attachments/assets/8b6deb0e-2559-4349-b1af-8efda8f1c456)
-
-[video.webm](https://github.com/user-attachments/assets/17afb888-2629-49c7-9c90-67649255695a)
+[video.webm](https://github.com/user-attachments/assets/8d77aa0c-671e-40bd-a82e-8203f753c567)  
 
 
 
