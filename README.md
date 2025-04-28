@@ -17,6 +17,9 @@ yarn add react-native-header-search
 ## Usage
 
 ```js
+
+import { HeaderSearch } from 'react-native-header-search';
+import { View, Text, SafeAreaView } from 'react-native';
  return (
     <SafeAreaView>
       <HeaderSearch
@@ -56,9 +59,7 @@ yarn add react-native-header-search
 | ------------------------ | ---------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------- |
 | **leftIcon**             | any                                | Icon displayed on the IconLeft side of the header.                                             |                      |
 | **IconClose**            | any                                | Icon used to close the IconClose mode.                                                         |
-| text.                    |                                    |
 | **IconSearch**           | any                                | Icon used to close the IconSearch mode.                                                        |
-| text.                    |                                    |
 | **styleInput**           | ViewStyle                          | Style for the container wrapping the TextInput.                                                |                      |
 | **styleHeader**          | Animated.AnimatedProps<ViewStyle>  | Style for the header container.                                                                |                      |
 | **inputStyle**           | TextStyle                          | Style for the TextInput component.                                                             |                      |

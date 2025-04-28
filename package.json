@@ -1,9 +1,10 @@
 {
   "name": "react-native-header-search",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A customizable and responsive header search bar UI component for React Native apps, featuring advanced styling, easy integration, and dynamic event handling.",
   "source": "./src/index.tsx",
   "main": "./lib/module/index.js",
+  "types": "types/index.d.ts",
   "exports": {
     ".": {
       "types": "./lib/typescript/src/index.d.ts",

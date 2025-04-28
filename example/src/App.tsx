@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView } from 'react-native';
+import { View, Text, SafeAreaView, StyleSheet } from 'react-native';
 import { HeaderSearch } from 'react-native-header-search';
 
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
       <HeaderSearch
         placeholderTextColor="#999"
         placeHolder="Search..."
-        styleHeader={{ backgroundColor: '#6c0af5' }}
+        styleHeader={styles.header}
         title="Home Screen"
         IconClose={
           <View>
@@ -34,5 +34,12 @@ const App = () => {
     </SafeAreaView>
   );
 };
-
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  header: {
+    backgroundColor: '#6c0af5',
+  },
+});
 export default App;
